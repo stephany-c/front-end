@@ -1,2 +1,2 @@
 # front-end
-projeto de exetensão do curso de sistemas de informações , site para ajudar em doações de equipamentos eletrônicos usados.
+projeto de extensão do curso de sistemas de informações da PUC-MG-São Gabriel , site para ajudar em doações de equipamentos eletrônicos usados.
