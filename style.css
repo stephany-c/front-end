@@ -1,0 +1,95 @@
+
+
+
+body {
+    background-color: #13142b !important; /* Define a cor de fundo do body como roxo escuro */
+    font-family: 'Codec Pro', sans-serif;
+    font-weight: 700;
+  }
+
+
+  label{
+    color: white;
+  }
+  
+  p {
+    color: white;
+  }
+  
+  h2 {
+    color: white;
+  }
+  
+  .degrad-btn {
+    background-image: linear-gradient(to right, #5e23be, #81198a);
+    color: #13142b;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 60px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+     font-family: 'Codec Pro', sans-serif;
+    font-weight: 700;
+    
+  } 
+  
+  .degrad-btn:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
+
+
+  /*icons */
+
+ 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+
+
+.lilas-text {
+  color: #8a5bcc;
+}
+
+ /* Estilos para os itens do menu */
+ .navbar-nav .nav-link {
+  color: white;
+  transition: color 0.3s;
+}
+
+/* Estilo ao passar o mouse */
+.navbar-nav .nav-link:hover {
+  color: purple;
+}
+
+
+
+.calendar {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.calendar-date {
+  padding: 5px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+.calendar-date.selected {
+  background-color: red;
+}
+
+
+.logo{
+  width: 190px;
+}
